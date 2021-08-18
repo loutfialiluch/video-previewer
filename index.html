@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Previewer</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Video Previewer</h1>
+    <article class="video">
+      <a href="https://www.youtube.com/watch?v=SMKPKGW083c" target="_blank">
+        <div class="video__thumbnail show">
+          <img src="images/thumbnail.jpg" class="thumbnail" alt="thumbnail" />
+          <span class="play"><img src="images/play.png" alt="" /></span>
+        </div>
+        <div class="img-container">
+          <img class="video__img show" src="images/image_01.jpg" alt="" />
+          <img class="video__img" src="images/image_02.jpg" alt="" />
+          <img class="video__img" src="images/image_03.jpg" alt="" />
+          <img class="video__img" src="images/image_04.jpg" alt="" />
+        </div>
+      </a>
+      <div class="video__dots">
+        <!-- <span class="video__dots--dot" data-index="0"></span>
+        <span class="video__dots--dot" data-index="1"></span>
+        <span class="video__dots--dot" data-index="2"></span>
+        <span class="video__dots--dot" data-index="3"></span> -->
+      </div>
+    </article>
+    <script src="js/main.js"></script>
+  </body>
+</html>
